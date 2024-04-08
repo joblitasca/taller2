@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="4.793" tests="16" skipped="0" failures="0" errors="0">
+<testcase classname="Eliminar un producto usando la api /api/v1/product" name="Eliminar un producto creado previamente con éxito - Example #1.1" time="3.201">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+* y un producto valido previamente creado...................................passed
+Cuando se hace una petición "DELETE" con el nombre "Myphone 100"............passed
+* y la descripción "Un smartphone MyPhone"..................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "exitosa" con código 200...................passed
+* y el mensaje "El producto fue eliminado con éxito"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Eliminar un producto usando la api /api/v1/product" name="Eliminar un producto con campos invalidos - Example #1.1" time="0.129">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+* y un producto validado previamente creado "123456"........................passed
+Cuando se hace una petición "DELETE" con el nombre "Myphone 100"............passed
+* y la descripción "calidad"................................................passed
+* y el precio 1000..........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "de error" con código 400..................passed
+* y el mensaje "El producto no fue encontrado"..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Actualizar un producto usando la api /api/v1/product" name="Actualizar un producto creado previamente con éxito - Example #1.1" time="0.194">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+* y un producto valido previamente creado...................................passed
+Cuando se hace una petición "PUT" con el nombre "Myphone 18"................passed
+* y la descripción "Descripcion Actualizada"................................passed
+* y el precio 999...........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "exitosa" con código 200...................passed
+* y el mensaje "El producto fue actualizado con éxito"......................passed
+* con los campos actualizados correctamente.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Actualizar un producto usando la api /api/v1/product" name="Actualizar un producto con campos invalidos - Example #1.1" time="0.098">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+* y un producto valido previamente creado...................................passed
+Cuando se hace una petición "PUT" con el nombre ""..........................passed
+* y la descripción "Descripcion Actualizada"................................passed
+* y el precio 999...........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "de error" con código 400..................passed
+* y el mensaje "El nuevo nombre no debe estar en blanco"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Actualizar un producto usando la api /api/v1/product" name="Actualizar un producto con campos invalidos - Example #1.2" time="0.089">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+* y un producto valido previamente creado...................................passed
+Cuando se hace una petición "PUT" con el nombre "Myphone 12"................passed
+* y la descripción "".......................................................passed
+* y el precio 999...........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "de error" con código 400..................passed
+* y el mensaje "La nueva descripción no debe estar en blanco"...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Actualizar un producto usando la api /api/v1/product" name="Actualizar un producto con campos invalidos - Example #1.3" time="0.098">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+* y un producto valido previamente creado...................................passed
+Cuando se hace una petición "PUT" con el nombre "Myphone 13"................passed
+* y la descripción "Descripcion Actualizada"................................passed
+* y el precio 0.............................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "de error" con código 400..................passed
+* y el mensaje "El nuevo precio debe ser mayor a cero"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Crear un nuevo producto usando la api /api/v1/product" name="Crear un producto con éxito - Example #1.1" time="0.057">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+Cuando se hace una petición "POST" con el nombre "Myphone 11"...............passed
+* y la descripción "Un smartphone MyPhone"..................................passed
+* y el precio 1100..........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "exitosa" con código 201...................passed
+* y el mensaje "El producto fue creado con éxito!"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Crear un nuevo producto usando la api /api/v1/product" name="Crear un producto con éxito - Example #1.2" time="0.049">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+Cuando se hace una petición "POST" con el nombre "Myphone 12"...............passed
+* y la descripción "Un smartphone MyPhone"..................................passed
+* y el precio 1200..........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "exitosa" con código 201...................passed
+* y el mensaje "El producto fue creado con éxito!"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Crear un nuevo producto usando la api /api/v1/product" name="Crear un producto con éxito - Example #1.3" time="0.063">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+Cuando se hace una petición "POST" con el nombre "Myphone 13"...............passed
+* y la descripción "Un smartphone MyPhone"..................................passed
+* y el precio 1300..........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "exitosa" con código 201...................passed
+* y el mensaje "El producto fue creado con éxito!"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Crear un nuevo producto usando la api /api/v1/product" name="Crear un producto con éxito - Example #1.4" time="0.056">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+Cuando se hace una petición "POST" con el nombre "Myphone 14"...............passed
+* y la descripción "Un smartphone MyPhone"..................................passed
+* y el precio 1400..........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "exitosa" con código 201...................passed
+* y el mensaje "El producto fue creado con éxito!"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Crear un nuevo producto usando la api /api/v1/product" name="Crear un producto con éxito - Example #1.5" time="0.043">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+Cuando se hace una petición "POST" con el nombre "Myphone 15"...............passed
+* y la descripción "Un smartphone MyPhone"..................................passed
+* y el precio 1500..........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "exitosa" con código 201...................passed
+* y el mensaje "El producto fue creado con éxito!"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Crear un nuevo producto usando la api /api/v1/product" name="Crear un producto con campos vacios - Example #1.1" time="0.043">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+Cuando se hace una petición "POST" con el nombre "".........................passed
+* y la descripción "Un smartphone de la empresa MyPhone"....................passed
+* y el precio 1100..........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "de error" con código 400..................passed
+* y el mensaje "El nombre del producto no fue proporcionado"................passed
+]]></system-out>
+</testcase>
+<testcase classname="Crear un nuevo producto usando la api /api/v1/product" name="Crear un producto con campos vacios - Example #1.2" time="0.039">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+Cuando se hace una petición "POST" con el nombre "Myphone 12"...............passed
+* y la descripción "".......................................................passed
+* y el precio 1200..........................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "de error" con código 400..................passed
+* y el mensaje "La descripción del producto no fue proporcionada"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Crear un nuevo producto usando la api /api/v1/product" name="Crear un producto con campos vacios - Example #1.3" time="0.041">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+Cuando se hace una petición "POST" con el nombre "Myphone 13"...............passed
+* y la descripción "Un smartphone de la empresa MyPhone"....................passed
+* y el precio 0.............................................................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "de error" con código 400..................passed
+* y el mensaje "El precio del producto no fue proporcionado"................passed
+]]></system-out>
+</testcase>
+<testcase classname="Obtener un producto usando la api /api/v1/product" name="Obtener un producto creado previamente con éxito - Example #1.1" time="0.092">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+* y un producto valido previamente creado...................................passed
+Cuando se hace una petición "GET" a la API..................................passed
+Entonces se recibe una respuesta "exitosa" con código 200...................passed
+* y el mensaje "El producto fue encontrado".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Obtener un producto usando la api /api/v1/product" name="No listar un producto - Example #1.1" time="0.027">
+<system-out><![CDATA[
+Dada una API válida con url "/api/v1/product/" y formato "application/json".passed
+Cuando se hace una petición "GET" con el sku "qwert"........................passed
+* a la API..................................................................passed
+Entonces se recibe una respuesta "de error" con código 400..................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.vichamalab.test.basic.ProductSuiteTest" time="5.392" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jobli\git\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\product-api-service-cucumber\target\test-classes;C:\Users\jobli\git\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\product-api-service-cucumber\target\classes;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\jobli\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\jobli\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\jobli\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\jobli\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\jobli\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\jobli\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\jobli\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jobli\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\jobli\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jobli\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jobli\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\jobli\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\jobli\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jobli\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\jobli\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\jobli\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\jobli\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\jobli\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\jobli\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\jobli\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.boot.library.path" value="C:\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\jobli\AppData\Local\Temp\surefire9436961306960768121\surefirebooter-20240407200829567_3.jar C:\Users\jobli\AppData\Local\Temp\surefire9436961306960768121 2024-04-07T20-08-29_327-jvmRun1 surefire-20240407200829567_1tmp surefire_0-20240407200829567_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jobli\git\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\product-api-service-cucumber\target\test-classes;C:\Users\jobli\git\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\product-api-service-cucumber\target\classes;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\jobli\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\jobli\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\jobli\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jobli\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\jobli\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\jobli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\jobli\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\jobli\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\jobli\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\jobli\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jobli\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\jobli\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jobli\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jobli\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\jobli\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\jobli\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jobli\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\jobli\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\jobli\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\jobli\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\jobli\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\jobli\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\jobli\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jobli"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\jobli\git\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\product-api-service-cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jobli\AppData\Local\Temp\surefire9436961306960768121\surefirebooter-20240407200829567_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+7"/>
+    <property name="user.name" value="jobli"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.10+7"/>
+    <property name="localRepository" value="C:\Users\jobli\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\jobli\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\Users\jobli\git\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\testing-spring-api-services-cucumber\product-api-service-cucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/sts-4.22.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/sts-4.22.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\app\jobli\product\11.2.0\client_1;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\AUTOMATIZACION SELENIUM\apache-maven-3.9.4\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\Program Files\Git\cmd;C:\gradle-8.7\bin;C:\Program Files\nodejs\;C:\Users\jobli\AppData\Local\Microsoft\WindowsApps;C:\Users\jobli\AppData\Roaming\npm;C:\sts-4.22.0.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.10+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Example #1.1" classname="Ejemplos" time="3.307">
+    <system-out><![CDATA[
+@Eliminar @Exito
+Esquema del escenario: Eliminar un producto creado previamente con éxito      &amp#27;[90m# com/vichamalab/avanzado/Eliminar_producto.feature:17&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my un producto valido previamente creado&amp#27;[0m                                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_un_producto_valido_previamente_creado()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"DELETE"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 100"&amp#27;[0m            &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Un smartphone MyPhone"&amp#27;[0m                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 200
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitosa"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El producto fue eliminado con éxito"&amp#27;[0m                        &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Ejemplos" time="0.145">
+    <system-out><![CDATA[
+@Eliminar @Fallo
+Esquema del escenario: Eliminar un producto con campos invalidos              &amp#27;[90m# com/vichamalab/avanzado/Eliminar_producto.feature:33&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+Mensaje orinal sku: null
+Mensaje de body: {"sku":"372924d1-2218-435c-bc3d-f66e73312c26","status":true,"message":"El producto fue creado con éxito!"}
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my un producto validado previamente creado &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m                        &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_un_producto_validado_previamente_creado(java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"DELETE"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 100"&amp#27;[0m            &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"calidad"&amp#27;[0m                                                &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m1000&amp#27;[0m                                                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 400
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"de error"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El producto no fue encontrado"&amp#27;[0m                              &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Ejemplos" time="0.212">
+    <system-out><![CDATA[
+@Actualizar @Exito
+Esquema del escenario: Actualizar un producto creado previamente con éxito    &amp#27;[90m# com/vichamalab/avanzado/actualizar_producto.feature:19&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my un producto valido previamente creado&amp#27;[0m                                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_un_producto_valido_previamente_creado()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"PUT"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 18"&amp#27;[0m                &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Descripcion Actualizada"&amp#27;[0m                                &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m                                                           &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 200
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitosa"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El producto fue actualizado con éxito"&amp#27;[0m                      &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32mcon los campos actualizados correctamente&amp#27;[0m                                 &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.con_los_campos_actualizados_correctamente()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Ejemplos" time="0.108">
+    <system-out><![CDATA[
+@Actualizar @Fallo
+Esquema del escenario: Actualizar un producto con campos invalidos            &amp#27;[90m# com/vichamalab/avanzado/actualizar_producto.feature:35&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my un producto valido previamente creado&amp#27;[0m                                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_un_producto_valido_previamente_creado()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"PUT"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Descripcion Actualizada"&amp#27;[0m                                &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m                                                           &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 400
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"de error"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El nuevo nombre no debe estar en blanco"&amp#27;[0m                    &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Ejemplos" time="0.063">
+    <system-out><![CDATA[
+@Crear @Exito
+Esquema del escenario: Crear un producto con éxito                            &amp#27;[90m# com/vichamalab/avanzado/crear_nuevo_producto.feature:17&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 11"&amp#27;[0m               &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Un smartphone MyPhone"&amp#27;[0m                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m1100&amp#27;[0m                                                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 201
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitosa"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El producto fue creado con éxito!"&amp#27;[0m                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Ejemplos" time="0.051">
+    <system-out><![CDATA[
+@Crear @Fallo
+Esquema del escenario: Crear un producto con campos vacios                    &amp#27;[90m# com/vichamalab/avanzado/crear_nuevo_producto.feature:35&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                         &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Un smartphone de la empresa MyPhone"&amp#27;[0m                    &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m1100&amp#27;[0m                                                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 400
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"de error"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El nombre del producto no fue proporcionado"&amp#27;[0m                &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Ejemplos" time="0.098">
+    <system-out><![CDATA[
+@Obtener @Exito
+Esquema del escenario: Obtener un producto creado previamente con éxito       &amp#27;[90m# com/vichamalab/avanzado/obtener_producto.feature:15&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my un producto valido previamente creado&amp#27;[0m                                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_un_producto_valido_previamente_creado()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"GET"&amp#27;[0m&amp#27;[32m a la API&amp#27;[0m                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_peticion(java.lang.String)&amp#27;[0m
+Mensaje de error: 200
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitosa"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El producto fue encontrado"&amp#27;[0m                                 &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Ejemplos" time="0.036">
+    <system-out><![CDATA[
+@Obtener @Fallo
+Esquema del escenario: No listar un producto                                  &amp#27;[90m# com/vichamalab/avanzado/obtener_producto.feature:28&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"GET"&amp#27;[0m&amp#27;[32m con el sku &amp#27;[0m&amp#27;[32m&amp#27;[1m"qwert"&amp#27;[0m                        &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_sku(java.lang.String,java.lang.String)&amp#27;[0m
+nombreEsperado: qwert
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 400
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"de error"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Ejemplos" time="0.099">
+    <system-out><![CDATA[
+@Actualizar @Fallo
+Esquema del escenario: Actualizar un producto con campos invalidos            &amp#27;[90m# com/vichamalab/avanzado/actualizar_producto.feature:36&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my un producto valido previamente creado&amp#27;[0m                                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_un_producto_valido_previamente_creado()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"PUT"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 12"&amp#27;[0m                &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                                       &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m                                                           &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 400
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"de error"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"La nueva descripción no debe estar en blanco"&amp#27;[0m               &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Ejemplos" time="0.058">
+    <system-out><![CDATA[
+@Crear @Exito
+Esquema del escenario: Crear un producto con éxito                            &amp#27;[90m# com/vichamalab/avanzado/crear_nuevo_producto.feature:18&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 12"&amp#27;[0m               &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Un smartphone MyPhone"&amp#27;[0m                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m1200&amp#27;[0m                                                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 201
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitosa"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El producto fue creado con éxito!"&amp#27;[0m                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.2" classname="Ejemplos" time="0.049">
+    <system-out><![CDATA[
+@Crear @Fallo
+Esquema del escenario: Crear un producto con campos vacios                    &amp#27;[90m# com/vichamalab/avanzado/crear_nuevo_producto.feature:36&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 12"&amp#27;[0m               &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                                       &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m1200&amp#27;[0m                                                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 400
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"de error"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"La descripción del producto no fue proporcionada"&amp#27;[0m           &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.3" classname="Ejemplos" time="0.105">
+    <system-out><![CDATA[
+@Actualizar @Fallo
+Esquema del escenario: Actualizar un producto con campos invalidos            &amp#27;[90m# com/vichamalab/avanzado/actualizar_producto.feature:37&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my un producto valido previamente creado&amp#27;[0m                                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_un_producto_valido_previamente_creado()&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"PUT"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 13"&amp#27;[0m                &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Descripcion Actualizada"&amp#27;[0m                                &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                             &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 400
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"de error"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El nuevo precio debe ser mayor a cero"&amp#27;[0m                      &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.3" classname="Ejemplos" time="0.068">
+    <system-out><![CDATA[
+@Crear @Exito
+Esquema del escenario: Crear un producto con éxito                            &amp#27;[90m# com/vichamalab/avanzado/crear_nuevo_producto.feature:19&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 13"&amp#27;[0m               &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Un smartphone MyPhone"&amp#27;[0m                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m1300&amp#27;[0m                                                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 201
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitosa"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El producto fue creado con éxito!"&amp#27;[0m                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.3" classname="Ejemplos" time="0.049">
+    <system-out><![CDATA[
+@Crear @Fallo
+Esquema del escenario: Crear un producto con campos vacios                    &amp#27;[90m# com/vichamalab/avanzado/crear_nuevo_producto.feature:37&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 13"&amp#27;[0m               &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Un smartphone de la empresa MyPhone"&amp#27;[0m                    &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                             &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 400
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"de error"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El precio del producto no fue proporcionado"&amp#27;[0m                &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.4" classname="Ejemplos" time="0.062">
+    <system-out><![CDATA[
+@Crear @Exito
+Esquema del escenario: Crear un producto con éxito                            &amp#27;[90m# com/vichamalab/avanzado/crear_nuevo_producto.feature:20&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 14"&amp#27;[0m               &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Un smartphone MyPhone"&amp#27;[0m                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m1400&amp#27;[0m                                                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 201
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitosa"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El producto fue creado con éxito!"&amp#27;[0m                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.5" classname="Ejemplos" time="0.051">
+    <system-out><![CDATA[
+@Crear @Exito
+Esquema del escenario: Crear un producto con éxito                            &amp#27;[90m# com/vichamalab/avanzado/crear_nuevo_producto.feature:21&amp#27;[0m
+currentUrl: /api/v1/product/
+  &amp#27;[32mDada &amp#27;[0m&amp#27;[32muna API válida con url &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/v1/product/"&amp#27;[0m&amp#27;[32m y formato &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.una_api_válida_con_url_y_formato(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mCuando &amp#27;[0m&amp#27;[32mse hace una petición &amp#27;[0m&amp#27;[32m&amp#27;[1m"POST"&amp#27;[0m&amp#27;[32m con el nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Myphone 15"&amp#27;[0m               &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_hace_una_petición_con_el_nombre(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my la descripción &amp#27;[0m&amp#27;[32m&amp#27;[1m"Un smartphone MyPhone"&amp#27;[0m                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_la_descripción(java.lang.String)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el precio &amp#27;[0m&amp#27;[32m&amp#27;[1m1500&amp#27;[0m                                                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_precio(float)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32ma la API&amp#27;[0m                                                                  &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.a_la_api()&amp#27;[0m
+Mensaje de error: 201
+  &amp#27;[32mEntonces &amp#27;[0m&amp#27;[32mse recibe una respuesta &amp#27;[0m&amp#27;[32m&amp#27;[1m"exitosa"&amp#27;[0m&amp#27;[32m con código &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                   &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.se_recibe_una_respuesta_de_error_con_código(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32m* &amp#27;[0m&amp#27;[32my el mensaje &amp#27;[0m&amp#27;[32m&amp#27;[1m"El producto fue creado con éxito!"&amp#27;[0m                          &amp#27;[90m# com.vichamalab.test.basic.StepDefinitions.y_el_mensaje(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

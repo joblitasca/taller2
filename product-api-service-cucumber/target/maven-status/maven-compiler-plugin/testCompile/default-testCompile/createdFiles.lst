@@ -1,0 +1,7 @@
+com\vichamalab\test\basic\ProductSuiteTest.class
+com\vichamalab\test\dto\package-info.class
+com\vichamalab\test\dto\Product.class
+com\vichamalab\test\dto\ProductRequest.class
+com\vichamalab\test\basic\StepDefinitions.class
+com\vichamalab\test\dto\ProductResponse$ProductResponseBuilder.class
+com\vichamalab\test\dto\ProductResponse.class
